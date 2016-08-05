@@ -1,0 +1,31 @@
+横竖屏切换:
+On\\\
+我们不能再非UI线程更新UI
+如何实现一个和线程相关的hander
+HanderThread又是什么呢
+如何在主线程给子线程发送消息
+Android中更新UI的几种方式
+
+
+Hander究竟是什么:
+  Hander是Android跟提供用来更新ui的一套机制,也是一套消息传递机制
+为什么要使用hander
+ Android在设计的时候,就封装了一套消息创建,传递,处理机制,如果不遵循这样的机制.
+置为空,让回收机制对象,通过保证当前activity对象没有引用指向他,他保证activity
+
+
+限制横竖屏:
+在想要设置的具体activity清单文件添加相应属性,添加screenorientation属性,当设置
+限制后,那么这个页面永远保守竖直,
+LayoutR.layout.maactivity
+防止执行oncreate
+Configchanges 设置在activity属性中
+作用:系统会监听
+当这两个发生变化,由  序列化是写成了文件
+Intent 意图 作业
+启动系统组件:
+//打开电脑->
+
+
+Intent 
+获取启动activity的Intent 
